@@ -1,10 +1,11 @@
-import { createRouter, createWebHashHistory, RouteRecordRaw } from "vue-router";
+import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import EntdeckenView from "../views/EntdeckenView.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: "/",
+    redirect: "/entdecken",
     name: "home",
     component: HomeView,
   },
@@ -16,7 +17,7 @@ const routes: Array<RouteRecordRaw> = [
 ];
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes,
 });
 

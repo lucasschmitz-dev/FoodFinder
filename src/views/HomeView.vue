@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>Wilkommen auf unserer Website!</h1>
+    <h1>Landing-Page</h1>
   </div>
 </template>
 

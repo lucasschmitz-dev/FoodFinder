@@ -6,7 +6,6 @@
     <router-link to="/was-ist-möglich">Was ist möglich?</router-link>
     <router-link to="/mein-geschmack">Mein Geschmack</router-link>
   </div>
-
   <div class="topnav center">
     <h1><a class="center" href="/">FoodFinder</a></h1>
     <router-link to="/entdecken">Entdecken</router-link>

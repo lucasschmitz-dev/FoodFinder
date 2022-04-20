@@ -1,4 +1,4 @@
-# foodfinder
+# FoodFinder
 
 ## Project setup
 ```

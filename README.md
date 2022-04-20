@@ -20,5 +20,12 @@ npm run build
 npm run lint
 ```
 
+### Fix "Delete `␍`" error
+```
+git config core.autocrlf false 
+git rm --cached -r . 
+git reset --hard
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

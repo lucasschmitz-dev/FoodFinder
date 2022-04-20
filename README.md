@@ -1,4 +1,4 @@
-# projekt-essen
+# foodfinder
 
 ## Project setup
 ```
